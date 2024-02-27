@@ -1,4 +1,4 @@
-from bot import Bot
+from virtual_assistant_v007.bot import Bot
 
 
 def run_bot():

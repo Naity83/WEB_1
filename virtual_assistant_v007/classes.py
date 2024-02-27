@@ -1,6 +1,6 @@
 import re
-from comands import *
-from colors import *
+from virtual_assistant_v007.comands import *
+from virtual_assistant_v007.colors import *
 from datetime import datetime
 from collections import UserDict
 from abc import ABC, abstractmethod
@@ -75,6 +75,10 @@ class Email(Field):
     
 
 class Address(Field):
+
+
+    def is_valid(self, value):
+        pass
     
     def __json__(self):
         return str(self.value) if self.value else None

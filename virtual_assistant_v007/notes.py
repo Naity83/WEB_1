@@ -1,6 +1,6 @@
 import json
 from textwrap import wrap
-from colors import *
+from virtual_assistant_v007.colors import *
 from datetime import datetime
 
 
